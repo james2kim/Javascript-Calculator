@@ -1,0 +1,129 @@
+body {
+   background-color: #c2c2d6;
+   font-family: 'Tomorrow', san-serif;
+   font-weight:bold;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+   position:relative
+}
+
+.calculator-container{
+  width:350px;
+  padding-left:10px;
+  padding-right:10px;
+  background-color:black;
+  height:436px;
+  max-height:436px;
+  border-radius: 10px;
+  border:1px solid white;
+}
+  
+.display-field{
+  background-color:	#282828;
+  height:65px;
+  width:306.5px;
+  padding-top:5px;
+  padding-left:3%;
+  padding-right:2%;
+  margin-top:6%;
+  margin-left:3%;
+  margin-right:3%;
+  text-align:right;
+  color:white;
+  font-weight:bold
+}
+
+.display{
+  text-align:center;
+  float:right
+}
+  
+.button-field-1{
+  display:grid;
+  grid-template-columns:50% 25% 25%;
+  height:65px;
+  padding-left:3%;
+  padding-right:3%;
+}
+
+.button-field-default{
+  display:grid;
+  grid-template-columns:25% 25% 25% 25%;
+  height:65px;
+  padding-left:3%;
+  padding-right:3%
+}
+  
+.button-field-bottom{
+  display:grid;
+  grid-template-columns:25% 25% 25% 25%;
+  grid-template-rows:50% 50%;
+  height:130px;
+  padding-left:3%;
+  padding-right:3%;
+  padding-bottom:5.5%  
+}
+
+.reset-button{
+  background-color:#cc0000
+}
+
+.equals-button{
+  background-color:#3333ff
+}
+
+.operator-button{
+  background-color:	#A8A8A8;
+}
+
+.decimal{
+  background-color:#C8C8C8
+}
+.digit{
+  background-color:#C8C8C8
+}
+
+.equal-sign{
+  grid-row-start:1;
+  grid-row-end:3;
+  grid-column-start:4;
+  grid-column-end:5;
+}
+
+.zero-sign{
+  grid-column-start:1;
+  grid-column-end:3;
+}
+.button-element{
+  margin:0.5px 0.5px 0.5px 0.5px;
+  font-family: 'Tomorrow', san-serif;
+  color:black;
+  font-weight:bold;
+  cursor:pointer
+ 
+}
+button:hover{
+  border:1px solid darkslategray;
+}
+
+button:focus {outline:0;}
+
+.signature{
+  font-size: 6px;
+  float:left;
+  padding-top:1px;
+  font-weight:900;
+  font-family: 'Indie Flower', cursive;
+  color:white;   
+}
+
+.logo{
+  font-size: 15px;
+  float:right;
+  padding-top:0.5px;
+  font-weight:900;
+  font-family: 'Indie Flower', cursive;
+  color:white
+}

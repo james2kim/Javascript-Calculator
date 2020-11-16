@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Javascript Calculator</title>
+        <script src="https://kit.fontawesome.com/fa77ef94c5.js" crossorigin="anonymous"></script>
+        <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Tomorrow&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="styles/styles.css">
+    </head>
+    <body>
+        <div class="calculator calculator-container shadow-lg">
+        <input type="text" value="" class="display-field shadow-lg" id="display"/ disabled>
+            <div class="calculator-keys">
+                <div class="button-field-1">
+                    <button 
+                        type="button" 
+                        class="button-element shadow-lg all-clear reset-button" 
+                        id="clear" value='all-clear'>AC</button>
+                    <button 
+                        type=button 
+                        class="button-element shadow-lg operator operator-button" 
+                        id="divide" 
+                        value='/'>/</button>
+                    <button 
+                        type=button 
+                        class="button-element shadow-lg operator operator-button" 
+                        id="multiply" 
+                        value='*'>x</button>
+                </div>
+                <div class="button-field-default">
+                    <button 
+                        type=button 
+                        class="button-element digit" 
+                        id="seven" 
+                        value='7'>7</button>
+                    <button 
+                        type=button 
+                        class="button-element digit" 
+                        id="eight" 
+                        value='8'>8</button>
+                    <button 
+                        type=button 
+                        class="button-element digit" 
+                        id="nine" 
+                        value='9'>9</button>
+                    <button 
+                        type=button 
+                        class="button-element operator operator-button"
+                        id="subtract" 
+                        value='-'>-</button> 
+                </div>
+                <div class="button-field-default">
+                    <button 
+                        type=button 
+                        class="button-element digit" 
+                        id="four" 
+                        value='4'>4</button>
+                    <button 
+                        type=button 
+                        class="button-element digit" 
+                        id="five" 
+                        value='5'>5</button>
+                    <button 
+                        type=button 
+                        class="button-element digit" 
+                        id="six" 
+                        value='6'>6</button>
+                    <button 
+                        type=button 
+                        class="button-element operator operator-button" 
+                        id="add" 
+                        value='+'>+</button> 
+                </div> 
+                <div class="button-field-bottom">
+                    <button 
+                        type=button 
+                        class="button-element digit" 
+                        id="one" 
+                        value='1'>1</button>
+                    <button 
+                        type=button 
+                        class="button-element digit" 
+                        id="two" 
+                        value='2'>2</button>
+                    <button 
+                        type=button 
+                        class="button-element digit" 
+                        id="three" 
+                        value='3'>3</button>
+                    <button 
+                        type=button 
+                        class="button-element equal-sign operator equals-button" 
+                        id="equals" 
+                        value='='>=</button> 
+                    <button 
+                        type=button 
+                        class="button-element zero-sign digit" 
+                        id="zero" 
+                        value='0'>0</button>
+                    <button 
+                        type=button 
+                        class="button-element decimal" 
+                        id="decimal" 
+                        value='.'>.</button>
+                </div>
+            </div> 
+            <span class="signature">By James2Kim <i class="fas fa-code"></i></span> 
+            <span class="logo"><i class="fas fa-atom"></i></span>
+            <script src="scripts/scripts.js"></script> 
+        </div>       
+    </body>
+</html>
